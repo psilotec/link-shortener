@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4743aa-e030-4523-8f8b-63b83db0ffa1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/collections/links.js" afterPath="$PROJECT_DIR$/imports/collections/links.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/link_create.js" afterPath="$PROJECT_DIR$/client/components/link_create.js" />
     </list>
     <ignored path="link-shortener.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="links.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="links.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/collections/links.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1625683">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="link_create.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="link_create.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/components/link_create.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.18579236">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -103,8 +103,8 @@
         <option value="$PROJECT_DIR$/client/components/header.js" />
         <option value="$PROJECT_DIR$/client/main.js" />
         <option value="$PROJECT_DIR$/server/main.js" />
-        <option value="$PROJECT_DIR$/client/components/link_create.js" />
         <option value="$PROJECT_DIR$/imports/collections/links.js" />
+        <option value="$PROJECT_DIR$/client/components/link_create.js" />
       </list>
     </option>
   </component>
@@ -396,18 +396,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/link_create.js">
+    <entry file="file://$PROJECT_DIR$/imports/collections/links.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/collections/links.js">
+    <entry file="file://$PROJECT_DIR$/client/components/link_create.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1625683">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.18579236">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
       </provider>
