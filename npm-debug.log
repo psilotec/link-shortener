@@ -1,0 +1,229 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-addons-pure-render-mixin' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose install initial load of C:\Users\Scott\documents\github\link-shortener\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\asap\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\core-js\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\encoding\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\fbjs\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\iconv-lite\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\immutable\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\is-stream\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\isomorphic-fetch\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\js-tokens\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\loose-envify\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\node-fetch\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\object-assign\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\promise\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\react\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\react-dom\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\ua-parser-js\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\valid-url\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\Scott\documents\github\link-shortener\node_modules\whatwg-fetch\package.json
+23 info package.json valid-url@1.0.9 No license field.
+24 info package.json ua-parser-js@0.7.10 No license field.
+25 verbose readDependencies loading dependencies from C:\Users\Scott\documents\github\link-shortener\package.json
+26 silly cache add args [ 'react-addons-pure-render-mixin', null ]
+27 verbose cache add spec react-addons-pure-render-mixin
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: 'react-addons-pure-render-mixin',
+28 silly cache add   scope: null,
+28 silly cache add   name: 'react-addons-pure-render-mixin',
+28 silly cache add   rawSpec: '',
+28 silly cache add   spec: 'latest',
+28 silly cache add   type: 'tag' }
+29 silly addNamed react-addons-pure-render-mixin@latest
+30 verbose addNamed "latest" is being treated as a dist-tag for react-addons-pure-render-mixin
+31 info addNameTag [ 'react-addons-pure-render-mixin', 'latest' ]
+32 silly mapToRegistry name react-addons-pure-render-mixin
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/react-addons-pure-render-mixin
+36 verbose addNameTag registry:https://registry.npmjs.org/react-addons-pure-render-mixin not in flight; fetching
+37 verbose request uri https://registry.npmjs.org/react-addons-pure-render-mixin
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 10:50:24 PM
+40 verbose request id 6e04383e5e69962f
+41 verbose etag "EMU9DDH2U0A065DUI8Z8G3F1D"
+42 http request GET https://registry.npmjs.org/react-addons-pure-render-mixin
+43 http 200 https://registry.npmjs.org/react-addons-pure-render-mixin
+44 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+44 verbose headers   etag: '"5YBZ4USISUIKJG73H653L9B8K"',
+44 verbose headers   'content-type': 'application/json',
+44 verbose headers   'content-encoding': 'gzip',
+44 verbose headers   'cache-control': 'max-age=300',
+44 verbose headers   'content-length': '4581',
+44 verbose headers   'accept-ranges': 'bytes',
+44 verbose headers   date: 'Fri, 08 Jul 2016 02:50:21 GMT',
+44 verbose headers   via: '1.1 varnish',
+44 verbose headers   age: '147',
+44 verbose headers   connection: 'keep-alive',
+44 verbose headers   'x-served-by': 'cache-jfk1043-JFK',
+44 verbose headers   'x-cache': 'HIT',
+44 verbose headers   'x-cache-hits': '1',
+44 verbose headers   'x-timer': 'S1467946221.591974,VS0,VE0',
+44 verbose headers   vary: 'Accept-Encoding' }
+45 silly get cb [ 200,
+45 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+45 silly get     etag: '"5YBZ4USISUIKJG73H653L9B8K"',
+45 silly get     'content-type': 'application/json',
+45 silly get     'content-encoding': 'gzip',
+45 silly get     'cache-control': 'max-age=300',
+45 silly get     'content-length': '4581',
+45 silly get     'accept-ranges': 'bytes',
+45 silly get     date: 'Fri, 08 Jul 2016 02:50:21 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     age: '147',
+45 silly get     connection: 'keep-alive',
+45 silly get     'x-served-by': 'cache-jfk1043-JFK',
+45 silly get     'x-cache': 'HIT',
+45 silly get     'x-cache-hits': '1',
+45 silly get     'x-timer': 'S1467946221.591974,VS0,VE0',
+45 silly get     vary: 'Accept-Encoding' } ]
+46 verbose get saving react-addons-pure-render-mixin to C:\Users\Scott\AppData\Roaming\npm-cache\registry.npmjs.org\react-addons-pure-render-mixin\.cache.json
+47 verbose correctMkdir C:\Users\Scott\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+48 silly addNameTag next cb for react-addons-pure-render-mixin with tag latest
+49 silly addNamed react-addons-pure-render-mixin@15.2.0
+50 verbose addNamed "15.2.0" is a plain semver version for react-addons-pure-render-mixin
+51 silly mapToRegistry name react-addons-pure-render-mixin
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/react-addons-pure-render-mixin
+55 verbose addRemoteTarball https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.0.tgz not in flight; adding
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.0.tgz',
+56 verbose addRemoteTarball   '61189db78242e956f4a97221fa62671ff84206d4' ]
+57 info retry fetch attempt 1 at 10:50:24 PM
+58 info attempt registry request try #1 at 10:50:24 PM
+59 http fetch GET https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.0.tgz
+60 http fetch 200 https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.0.tgz
+61 silly fetchAndShaCheck shasum 61189db78242e956f4a97221fa62671ff84206d4
+62 verbose addTmpTarball C:\Users\Scott\AppData\Local\Temp\npm-4712-f4ad377c\registry.npmjs.org\react-addons-pure-render-mixin\-\react-addons-pure-render-mixin-15.2.0.tgz not in flight; adding
+63 verbose addTmpTarball already have metadata; skipping unpack for react-addons-pure-render-mixin@15.2.0
+64 verbose correctMkdir C:\Users\Scott\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+65 silly cache afterAdd react-addons-pure-render-mixin@15.2.0
+66 verbose afterAdd C:\Users\Scott\AppData\Roaming\npm-cache\react-addons-pure-render-mixin\15.2.0\package\package.json not in flight; writing
+67 verbose correctMkdir C:\Users\Scott\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 verbose afterAdd C:\Users\Scott\AppData\Roaming\npm-cache\react-addons-pure-render-mixin\15.2.0\package\package.json written
+69 silly install resolved [ { name: 'react-addons-pure-render-mixin',
+69 silly install resolved     version: '15.2.0',
+69 silly install resolved     main: 'index.js',
+69 silly install resolved     repository:
+69 silly install resolved      { type: 'git',
+69 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+69 silly install resolved     keywords: [ 'react', 'react-addon' ],
+69 silly install resolved     license: 'BSD-3-Clause',
+69 silly install resolved     dependencies: {},
+69 silly install resolved     peerDependencies: { react: '^15.2.0' },
+69 silly install resolved     description: 'This package provides the React PureRenderMixin add-on.',
+69 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+69 silly install resolved     homepage: 'https://github.com/facebook/react#readme',
+69 silly install resolved     _id: 'react-addons-pure-render-mixin@15.2.0',
+69 silly install resolved     _shasum: '61189db78242e956f4a97221fa62671ff84206d4',
+69 silly install resolved     _resolved: 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.0.tgz',
+69 silly install resolved     _from: 'react-addons-pure-render-mixin@latest',
+69 silly install resolved     scripts: {},
+69 silly install resolved     _npmVersion: '2.15.5',
+69 silly install resolved     _nodeVersion: '4.4.5',
+69 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+69 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+69 silly install resolved     dist:
+69 silly install resolved      { shasum: '61189db78242e956f4a97221fa62671ff84206d4',
+69 silly install resolved        tarball: 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.2.0.tgz' },
+69 silly install resolved     _npmOperationalInternal:
+69 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+69 silly install resolved        tmp: 'tmp/react-addons-pure-render-mixin-15.2.0.tgz_1467399112441_0.9313450437039137' },
+69 silly install resolved     directories: {} } ]
+70 info install react-addons-pure-render-mixin@15.2.0 into C:\Users\Scott\documents\github\link-shortener
+71 info installOne react-addons-pure-render-mixin@15.2.0
+72 verbose installOne of react-addons-pure-render-mixin to C:\Users\Scott\documents\github\link-shortener not in flight; installing
+73 verbose correctMkdir C:\Users\Scott\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+74 verbose lock using C:\Users\Scott\AppData\Roaming\npm-cache\_locks\react-addons-pure-render-eaefc16b6b601637.lock for C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin
+75 silly install write writing react-addons-pure-render-mixin 15.2.0 to C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin
+76 verbose unbuild node_modules\react-addons-pure-render-mixin
+77 silly gentlyRm C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin is being purged from base C:\Users\Scott\documents\github\link-shortener
+78 verbose gentlyRm don't care about contents; nuking C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin
+79 verbose tar unpack C:\Users\Scott\AppData\Roaming\npm-cache\react-addons-pure-render-mixin\15.2.0\package.tgz
+80 verbose tar unpacking to C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin
+81 silly gentlyRm C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin is being purged
+82 verbose gentlyRm don't care about contents; nuking C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin
+83 silly gunzTarPerm modes [ '777', '666' ]
+84 silly gunzTarPerm extractEntry package.json
+85 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+86 silly gunzTarPerm extractEntry README.md
+87 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+88 silly gunzTarPerm extractEntry LICENSE
+89 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+90 silly gunzTarPerm extractEntry index.js
+91 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+92 silly gunzTarPerm extractEntry PATENTS
+93 silly gunzTarPerm modified mode [ 'PATENTS', 420, 438 ]
+94 verbose write writing to C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin\package.json
+95 info preinstall react-addons-pure-render-mixin@15.2.0
+96 verbose readDependencies loading dependencies from C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin\package.json
+97 silly prepareForInstallMany adding react@^15.2.0 from react-addons-pure-render-mixin peerDependencies
+98 warn peerDependencies The peer dependency react@^15.2.0 included from react-addons-pure-render-mixin will no
+99 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+100 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+101 verbose readDependencies loading dependencies from C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin\package.json
+102 silly install resolved []
+103 verbose about to build C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin
+104 info build C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin
+105 info linkStuff react-addons-pure-render-mixin@15.2.0
+106 silly linkStuff react-addons-pure-render-mixin@15.2.0 has C:\Users\Scott\documents\github\link-shortener\node_modules as its parent node_modules
+107 verbose linkBins react-addons-pure-render-mixin@15.2.0
+108 verbose linkMans react-addons-pure-render-mixin@15.2.0
+109 verbose rebuildBundles react-addons-pure-render-mixin@15.2.0
+110 info install react-addons-pure-render-mixin@15.2.0
+111 info postinstall react-addons-pure-render-mixin@15.2.0
+112 verbose readDependencies loading dependencies from C:\Users\Scott\documents\github\link-shortener\package.json
+113 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\asap\package.json
+114 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\core-js\package.json
+115 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\encoding\package.json
+116 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\fbjs\package.json
+117 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\iconv-lite\package.json
+118 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\immutable\package.json
+119 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\is-stream\package.json
+120 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\isomorphic-fetch\package.json
+121 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\js-tokens\package.json
+122 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\loose-envify\package.json
+123 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\node-fetch\package.json
+124 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\object-assign\package.json
+125 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\promise\package.json
+126 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\react\package.json
+127 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin\package.json
+128 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\react-dom\package.json
+129 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\ua-parser-js\package.json
+130 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\valid-url\package.json
+131 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\whatwg-fetch\package.json
+132 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\.bin\loose-envify\package.json
+133 verbose targetResolver reading package data from C:\Users\Scott\documents\github\link-shortener\node_modules\.bin\loose-envify.cmd\package.json
+134 verbose already installed skipping react@^15.2.0 C:\Users\Scott\documents\github\link-shortener
+135 silly install resolved []
+136 verbose unlock done using C:\Users\Scott\AppData\Roaming\npm-cache\_locks\react-addons-pure-render-eaefc16b6b601637.lock for C:\Users\Scott\documents\github\link-shortener\node_modules\react-addons-pure-render-mixin
+137 verbose validateInstall loading C:\Users\Scott\documents\github\link-shortener\package.json for validation
+138 verbose stack Error: The package react@15.1.0 does not satisfy its siblings' peerDependencies requirements!
+138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+138 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+138 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:27:18)
+138 verbose stack     at next (C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:234:5)
+138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:167:12
+138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:345:5
+139 verbose cwd C:\Users\Scott\documents\github\link-shortener
+140 error Windows_NT 10.0.10586
+141 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "react-addons-pure-render-mixin"
+142 error node v4.4.1
+143 error npm  v2.14.20
+144 error code EPEERINVALID
+145 error peerinvalid The package react@15.1.0 does not satisfy its siblings' peerDependencies requirements!
+145 error peerinvalid Peer react-dom@15.1.0 wants react@^15.1.0
+145 error peerinvalid Peer react-addons-pure-render-mixin@15.2.0 wants react@^15.2.0
+146 verbose exit [ 1, true ]
