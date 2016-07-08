@@ -9,6 +9,9 @@ Meteor.methods({
     'links.insert': function(url) {
         console.log('attempting to save', url);
         check(url, Match.Where(url => validUrl.isUri(url)));
+
+        const token = Math.random().toString(36).slice(-5);
+        Links.insert({ url, token, clicks: 0 });
     }
 });
 
