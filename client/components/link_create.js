@@ -3,10 +3,13 @@
  */
 import React, { Component } from 'react';
 
+//Form for the user to insert a valid URL to be shortened
+//Error handling for non-valid URLs
 class LinkCreate extends Component {
     constructor(props) {
         super(props);
 
+        //Initialize error message state
         this.state = { error: '' };
     }
 

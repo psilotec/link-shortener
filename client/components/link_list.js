@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import { createContainer } from 'meteor/react-meteor-data';
 import { Links } from '../../imports/collections/links';
 
+//List of URLs, their shortened link, and clicks from the Links collection
 class LinkList extends Component {
     renderRows() {
         return this.props.links.map(link => {
@@ -44,6 +45,7 @@ class LinkList extends Component {
     }
 }
 
+//Subscription to the whole Links collection
 export default createContainer(() => {
     Meteor.subscribe('links');
 

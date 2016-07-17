@@ -3,6 +3,7 @@
  */
 import React from 'react';
 
+//Header component
 const Header = () => {
     return (
         <nav className="nav navbar-default">
