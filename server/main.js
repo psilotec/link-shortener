@@ -15,8 +15,9 @@ function onRoute(req, res, next) {
     //Take the token out of the URL and try to find a matching link in Links collection
     const link = Links.findOne({ token: req.params.token });
 
-    //If the link object is found, redirect user to long URL
     if (link) {
+        //If the link object is found, update clicks and redirect user to long URL
+        Links.update(link, { $inc: { clicks: 1 }});
         res.writeHead(307, { 'Location': link.url });
         res.end();
     } else {
