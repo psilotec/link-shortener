@@ -26,7 +26,7 @@ function onRoute(req, res, next) {
 }
 
 const middleware = ConnectRoute(function(router) {
-   router.get('/:token', (req) => console.log(req));
+   router.get('/:token', onRoute);
 });
 
 //Middleware to check if incoming request has a token or not
