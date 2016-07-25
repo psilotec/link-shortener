@@ -21,6 +21,7 @@ function onRoute(req, res, next) {
         res.end();
     } else {
     //If link object isn't found, send user to React app
+        next();
     }
 }
 
